@@ -943,6 +943,9 @@ body.dark .orcamento-wrapper {
     .home span.name {
         font-size: 35px;
     }
+    .mobile-img {
+        margin-bottom: 0;
+    }
     .mobile-img img {
         width: 80px;
     }
