@@ -264,6 +264,8 @@ ul {
     color: var(--text-black-900);
     padding: 5px 15px;
     transition: all .5s;
+    text-decoration: none;
+    text-transform: none;
 }
 .aside .nav li a.active, .aside .nav li a.temporal-active {
     color: var(--skin-color)
@@ -979,6 +981,8 @@ body.dark .orcamento-wrapper {
     box-shadow: 0 0.1rem 0.6rem #00000009;
     transition: all .7s;
     z-index:98;
+    text-decoration: none;
+    text-transform: none;
 }
 
 #link-topo:hover {
