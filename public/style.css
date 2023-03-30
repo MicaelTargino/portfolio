@@ -851,6 +851,10 @@ body.dark .orcamento-wrapper {
     margin-left: auto;
 }
 
+.mobile-img {
+    display: none;
+}
+
 @media (max-width: 1199px) {
     .aside {
         left: -270px;
@@ -884,6 +888,17 @@ body.dark .orcamento-wrapper {
         display: none;
     }
 
+    .mobile-img {
+        display: block;
+        width: 20vw;
+        height: 150px;
+        margin: 0 auto;
+        margin-bottom: 60px;
+    }
+    .mobile-img img {
+        width: 160px;
+        transform: translateY(-60px);
+    }
 }
 
 @media (max-width: 767px) {
@@ -909,6 +924,13 @@ body.dark .orcamento-wrapper {
         height: 15%;
         margin: 10px auto;
     }
+    .mobile-img {
+        margin-bottom: 40px;
+    }
+    .mobile-img img {
+        width: 120px;
+        transform: translateY(-40px);
+    }
 }
 
 @media (max-width: 550px) {
@@ -920,6 +942,9 @@ body.dark .orcamento-wrapper {
     }
     .home span.name {
         font-size: 35px;
+    }
+    .mobile-img img {
+        width: 80px;
     }
 }
 @media (max-width: 500px) {
