@@ -691,8 +691,7 @@ body.dark .orcamento-wrapper {
     padding:0 3rem;
     color:#fff;
     font-size: clamp(2rem, 2.1rem , 3rem);
-    /* font-size: 2rem; */
-    width: 500px;
+    width: 350px;
     text-align: center;
     font-weight: lighter;
     box-shadow: 0 0.1rem 0.3rem rgba(0,0,0,.5);
