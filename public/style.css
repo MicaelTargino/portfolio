@@ -901,7 +901,7 @@ body.dark .orcamento-wrapper {
         /* margin-bottom: 60px; */
         border-radius:50%;
         overflow: hidden;
-        border: 3px solid white ;
+        border: 3px solid var(--text-black-700) ;
         position: relative;
     }
     .mobile-img img {
