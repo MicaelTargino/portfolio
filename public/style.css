@@ -84,7 +84,7 @@ ul {
     margin-right: -15px;
     position: relative;
 }
-.btn {
+.btnn {
     font-size: 16px;
     font-weight: 500;
     padding: 12px 35px;
@@ -97,7 +97,7 @@ ul {
     transition: all 0.3s ease;
 }
 
-.btn:hover {
+.btnn:hover {
     transform: scale(1.05);
 }
 
