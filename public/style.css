@@ -1002,5 +1002,5 @@ body.dark .orcamento-wrapper {
 }
 
 #link-topo:hover {
-    bottom: 3.5rem;
+    bottom: 3.5rem !important;
 }
