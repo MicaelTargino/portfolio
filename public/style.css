@@ -95,15 +95,15 @@ ul {
     border: none;
     background: var(--skin-color);
     transition: all 0.3s ease;
-    text-decoration: none;
-    text-transform: none;
+    text-decoration: none !important;
+    text-transform: capitalize !important;
 }
 
 .btnn:hover {
     transform: scale(1.05);
     color: white;
-    text-decoration: none;
-    text-transform: none;
+    text-decoration: none !important;
+    text-transform: capitalize !important;
 }
 
 .hidden {
