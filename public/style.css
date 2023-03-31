@@ -995,7 +995,7 @@ body.dark .orcamento-wrapper {
     color: white;
     border-radius: .3rem;
     box-shadow: 0 0.1rem 0.6rem #00000009;
-    transition: all .7s;
+    transition: all .3s;
     z-index:98;
     text-decoration: none;
     text-transform: none;
