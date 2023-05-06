@@ -2,7 +2,7 @@
 
 my online portfolio available at:
 
-``` https://www.micaeltargino.github.io/portfolio/ ```
+``` https://micaeltargino.github.io/portfolio/ ```
 
 ### tech`s used
 
