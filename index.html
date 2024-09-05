@@ -1,749 +1,358 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+<head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Micael's Portfolio</title>
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css">
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+          integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer"
+        />
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> -->
-    <link rel="stylesheet" type="text/css" href="skins/color-1.css" />
-
-    <!-- style switcher -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="skins/color-1.css"
-      class="alternate-style"
-      title="color-1"
-      disabled
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="skins/color-2.css"
-      class="alternate-style"
-      title="color-2"
-      disabled
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="skins/color-3.css"
-      class="alternate-style"
-      title="color-3"
-      disabled
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="skins/color-4.css"
-      class="alternate-style"
-      title="color-4"
-      disabled
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="skins/color-5.css"
-      class="alternate-style"
-      title="color-5"
-      disabled
-    />
-    <link rel="stylesheet" href="style-switcher.css" />
-  </head>
-  <body class="dark">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+        <link rel="stylesheet" type="text/css" href="./style.css" />
+        
+        <link rel="stylesheet" type="text/css" href="./skins/color-3.css" />
+    
+        <link rel="stylesheet" href="./style-switcher.css" />
+</head>
+<body class="dark"
+>
     <!-- main container start -->
     <div class="main-container">
-      <!-- aside start -->
-      <div class="aside">
-        <div class="logo">
-          <a href="#"> <span>M</span>icael</a>
-        </div>
-        <div class="nav-toggler">
-          <span></span>
-        </div>
-        <ul class="nav">
-          <li>
-            <a href="#home" class="homeLink link active"
-              ><i class="fa fa-home" translate="no"></i> Home</a
-            >
-          </li>
-          <li>
-            <a href="#about" class="aboutLink link"
-              ><i class="fa fa-user"></i> About</a
-            >
-          </li>
-          <li>
-            <a href="#service" class="servicesLink link"
-              ><i class="fa fa-list"></i> Services</a
-            >
-          </li>
-          <li>
-            <a href="#portfolio" class="portfolioLink link"
-              ><i class="fa fa-briefcase"></i> Portfolio</a
-            >
-          </li>
-          <!-- <li>
-            <a href="#budget" class="budgetLink link"
-              ><i class="fa-solid fa-dollar-sign"></i> Budget</a
-            >
-          </li> -->
-          <li>
-            <a href="#contact" class="contactBtnLink link"
-              ><i class="fa fa-comments"></i> Contact</a
-            >
-          </li>
-        </ul>
-      </div>
-      <!-- aside end -->
-      <!-- main content start -->
-      <div class="main-content">
-        <!-- home section start -->
-        <section id="home" class="home section">
-          <div class="container">
-            <div class="row">
-              <div class="mobile-img">
-                <img src="form14.png" alt="">
-              </div>
-              <div class="home-info padd-15">
-                <h3 class="hello">
-                  Hello, my name is <span class="name">Micael Targino</span>
-                </h3>
-                <h3 class="my-profession">
-                  I'm a <span class="typing"></span>
-                </h3>
-                <p>
-                      Blending technology and creativity has always been my passion.
-<!--                   I'm a fullstack web developer accumulating some experience for over 3
-                  years. My expertise is the frontend development, but i'm currently studing and working as a fullstack (React, Js,Python and Django) -->
-                </p>
-                <a href="#about" class="btnn hire-me">See More</a>
-              </div>
-              <div class="home-img padd-15">
-                <img src="form14.png" alt="" />
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- home section end -->
-        <!-- about section start -->
-        <section id="about" class="about section">
-          <div class="container">
-            <div class="row">
-              <div class="section-title padd-15">
-                <h2>About Me</h2>
-              </div>
-            </div>
-            <div class="row">
-              <div class="about-content padd-15">
-                <div class="row">
-                  <div class="about-text padd-15">
-                    <h3>I'm Micael Targino and <span>Web Developer</span></h3>
-                    <p>
 
-                    My tech journey began in 2020 with the creation of a simple website. This sparked a passion for coding that led me to a Computer Science bootcamp at Harvard, where I gained a solid foundation in web development and programming. Now, I am a Software Engineer at Metrike and an undergraduate Computer Science student at UFPB University, continuing to expand my knowledge and skills.  <!-- My journey in tech began in 2020 with web development, leading to a Computer Science bootcamp at Harvard for a solid foundation. Now an undergraduate at UFPB university, I'm expanding my skills in web technologies like HTML, CSS, JavaScript, and frameworks, along with database management and exploring Docker, AWS, and more. I aim to master NodeJs and Angular, holding introductory knowledge in Data Science and AI, demonstrating my dedication to becoming a versatile programmer in the tech industry. {% endcomment %}
-                    --><!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil beatae sunt deserunt quo molestias, officia illum, laudantium cupiditate expedita ea doloribus. Laboriosam ipsa nihil, modi iusto obcaecati fugit sequi repellendus eius excepturi a voluptas eveniet, aspernatur inventore! Et adipisci libero quo commodi, cumque, ut quae minus eos totam enim fugiat obcaecati? Quis illum mollitia corrupti.</p> -->
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="personal-info padd-15">
+        <div class="aside">
+            <div class="logo">
+                <a href="#"> 
+                    <span style="font-size:32px;">Micael</span>
+                </a>
+            </div>
+            <div class="nav-toggler">
+                <span></span>
+            </div>
+            <ul class="nav">
+                <li><a href="#home" class="homeLink link active"><i class="fa fa-home" translate="no"></i> Home</a></li>
+                <li><a href="#projects" class="portfolioLink link"><i class="fa fa-briefcase"></i>Projects</a></li>
+                <li><a href="#about" class="aboutLink link"><i class="fa fa-user"></i> About</a></li>
+                <!-- <li><a href="#skills" class="aboutLink link"><i class="fa fa-code"></i> Skills</a></li> --> 
+                <li><a href="#contact" class="contactBtnLink link"><i class="fa fa-comments"></i> Contact</a></li>
+            </ul>
+        </div>
+
+
+        <!-- main content start -->
+        <div class="main-content">
+            <section id="home" class="home section">
+                <div class="container">
                     <div class="row">
-                      <div class="info-item padd-15">
-                        <p>Degree: <span>CS Undergraduate</span></p>
-                      </div>
-                      <div class="info-item padd-15">
-                        <p>City : <span>João Pessoa - PB</span></p>
-                      </div>
+                        <div class="mobile-img">
+                            <img src="./myself.png" alt="" />
+                        </div>
+                        <div class="home-info padd-15">
+                            <h3 class="hello">
+                                Hello, I am
+                                <span style=" font-family: 'Orbitron', sans-serif; font-weight: 800; font-size: 35px;">
+                                    Micael Targino
+                                </span>
+                            </h3>
+                            <h3 class="my-profession">
+                                I'm a <span class="typing"></span>
+                            </h3>
+                            <p>
+                                Blending technology and creativity.
+                                <section class="hero-contact" style="display: flex; align-items: center; gap:6px;">
+                                    <div class="icon">
+                                        <a target="_blank" href="https://www.linkedin.com/in/micaeltargino/">
+                                            <img width="26" height="26" style="border-radius: 6px" src="data:image/png;base64,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"></img>
+                                        </a>
+                                    </div>  
+                                    <div class="icon">
+                                        <a target="_blank" href="https://github.com/MicaelTargino">
+                                            <img width="40" height="40" style="border-radius: 6px" src="data:image/png;base64,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"></img>
+                                        </a>
+                                    </div>  
+                                </section>
+                            </p>
+                            <a href="#projects" class="btnn hire-me">
+                            <span>Projects</span> 
+                            </a>
+                            <a href="./CV.pdf" download="./CV.pdf" class="btnn btn-download-cv" style="margin-bottom: 16px">
+                                 <i class="fa-solid fa-download"></i> Download CV
+                            </a>
+            
+                        </div>
+                         <style>
+                            .home-img {
+                                width: 100%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                            }
+                            .home-img img {
+                                width: 80%;
+                                object-fit: contain;
+                            }
+                        </style> 
+                        <div class="home-img padd-15">
+                            <img src="./myself.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+
+            <section id="projects" class="portfolio section">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Projects</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="row">
+                            <section class="portfolio-content">
+                            <div class="portfolio-item">
+                                <div class="portfolio-item-inner">
+                                    <div class="porfolio-img">
+                                        <div class="img-container">
+                                            <img src="./technator_home.png" alt="Avatar" class="image">
+                                            <div class="overlay">
+                                              <div class="overlay-content">
+                                                <h4><b>Technator</b></h4>
+                                                <p style="overflow-wrap: anywhere; width: 100% !important; ">
+                                                    Akinator-like game based on Computing History Characters. Written in NextJs, Typescript, Prisma, MySQL, Docker
+                                                </p>
+                                                <span>
+                                                    <!-- <button><a href="{{item.demo_link}}" target="_blank">See demo</a></button> -->
+                                                    
+                                                    <button><a href="https://github.com/MicaelTargino/Technator" target="_blank">Github</a></button>
+                                                </span>
+                                              </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-item">
+                                <div class="portfolio-item-inner">
+                                    <div class="porfolio-img">
+                                        <div class="img-container">
+                                            <img src="./tomorrowyou_home.png" alt="Avatar" class="image">
+                                            <div class="overlay">
+                                              <div class="overlay-content">
+                                                <h4><b>Tomorrow you</b></h4>
+                                                <p style="overflow-wrap: anywhere; width: 100% !important; ">
+                                                    A project to write letters to your future self. Written in ReactJs, Javascript, Python, Django, Postgres, Redis and Docker
+                                                </p>
+                                                <span>
+                                                    <!-- <button><a href="{{item.demo_link}}" target="_blank">See demo</a></button> -->
+                                                    
+                                                    <button><a href="https://github.com/MicaelTargino/TomorrowYou" target="_blank">Github</a></button>
+                                                </span>
+                                              </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+            
+                        </div>
+                    </div>
+                </div>
+            </section>     
+            
+            
+            <section id="about" class="about section">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>About Me</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="about-content padd-15">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                    <h3>
+                                        I'm a <span>Web Developer</span> since 2020
+                                    </h3>
+                                    <p>
+                                        <strong>compromised Software Engineer</strong> engaged to deliver innovative and godd quality solutions. 
+
+                                        <br><br>
+                                        Currently, as a <strong>Software Engineer at Metrike</strong>, 
+                                        with a focus on <strong>Data Engineering and Backend</strong>, 
+                                        I'm focused on developing Data Processing ETL's for AdTech industry.
+
+                                        <br><br>
+                                        I'm studying <strong>Computer Science at UFPB University</strong>, delving in the computer science foundations, 
+                                        as long as Algorithms, Data Structures, Computer Architecture, Operational Systems, Linear algebra and Discrete Math, using the languages C/C++, Assembly, Haskell and Prolog.
+                                        
+                                        <br><br>
+                                        
+                                        dedicated to <strong>continuous learning</strong> and committed to becoming a <strong>versatile programmer</strong>, ready to tackle diverse challenges in the ever-evolving tech landscape.
+                                        
+                                        <br><br>
+                                    </p>
+                                </div>
+                            </div>
+                            <a href="{{ sections.about.cv.cv.url }}" download="cv.pdf" class="btnn btn-download-cv" style="margin-bottom: 16px">
+                                <i class="fa-solid fa-download"></i> Download CV
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="skills section">
+
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Skills:</h2>
+                        </div>
+                    </div>
+                    <div style="margin-bottom: 60px; color: white;">
+                        <h4>🖥 Backend</h4>
+                        <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python">
+                        <img src="https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white" alt="Django">
+                        <img src="https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray" alt="Django REST">
+                        <img src="https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white" alt="Flask">
+                        <img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi" alt="FastAPI">
+                    </div>
+
+                    <div style="margin-bottom: 60px; color: white;">   
+                        <h4>📊 Data Engineering</h4>
+                        <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
+                        <img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy">
+                        <img src="https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white" alt="Apache Airflow">
+                    </div>
+
+                    <div style="margin-bottom: 60px; color: white;">   
+                        <h4>🌐 Frontend</h4>
+                        <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript">
+                        <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+                        <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React">
+                        <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js">
+                    </div>
+
+                    <div style="margin-bottom: 60px; color: white;">
+                        <h4>🗄 Database</h4>
+                        <img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+                        <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
+                        <img src="https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white" alt="Redis">
+                        <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
+                    </div>
+
+                    <div style="margin-bottom: 60px; color: white;">
+                        <h4>🛠 DevOps</h4>
+                        <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git">
+                        <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
+                        <img src="https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx">
+                        <img src="https://img.shields.io/badge/DigitalOcean-%230167ff.svg?style=for-the-badge&logo=digitalOcean&logoColor=white" alt="DigitalOcean">
+                    </div>                   
+                    <div style="margin-bottom: 60px; color: white;">
+                        <h3>🛠 Basic Knowledge:</h3>
+                        <img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" alt="C">
+                        <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++">
+                        <img src="https://img.shields.io/badge/assembly-%23000000.svg?style=for-the-badge&logo=assemblyscript&logoColor=white" alt="Assembly">
+                        <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="contact" class="contact section" style="padding-bottom: 150px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Contact Me</h2>
+                        </div>
+                    </div>
+                    <h3 class="contact-title">Have you any questions ?</h3>
+                    <h4 class="contact-sub-title">I'M AT YOUR SERVICES</h4>
+                    <div class="row">
+                        <div class="contact-info-item padd-15">
+                              <div class="icon">
+                                    <img width="26" height="26" style="border-radius: 6px" src="data:image/png;base64,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"></img>
+
+                              </div>
+                              <h4>Linkedin</h4>
+                              <a target="_blank" href="https://www.linkedin.com/in/micaeltargino/">micaeltargino</a>
+                        </div>
+                        <div class="contact-info-item padd-15">
+                              <div class="icon">
+                                    <img width="40" height="40" style="border-radius: 6px" src="data:image/png;base64,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"></img>
+
+                              </div>
+                              <h4>Github</h4>
+                              <a target="_blank" href="https://github.com/MicaelTargino">MicaelTargino</a>
+                        </div>
+                        <div class="contact-info-item padd-15">
+                              <div class="icon">
+                                    <img width="26" height="26" style="border-radius: 6px" src="data:image/jpeg;base64,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"></img>
+
+                              </div>
+                              <h4>Email</h4>
+                              <a target="_blank" href="https://www.gmail.com">micaelgomestargino@gmail.com</a>
+                        </div>
                       
                     </div>
-                    <div class="row">
-                      <div class="buttons padd-15">
-                        <a href="CV.pdf" download="CV.pdf" class="btnn"
-                          >Download CV</a
-                        >
-                        <!-- <a href="#contact" class="btnn hire-me">Hire Me</a> -->
-                      </div>
-                    </div>
-                  </div>
-                  <!-- <div class="skills padd-15">
-                    <div class="row">
-                      <div class="skill-item padd-15">
-                        <h5>Javascript</h5>
-                        <div class="progress">
-                          <div class="progress-in" style="width: 85%"></div>
-                          <div class="skill-percent">85%</div>
-                        </div>
-                      </div>
-                      <div class="skill-item padd-15">
-                        <h5>ReactJs</h5>
-                        <div class="progress">
-                          <div class="progress-in" style="width: 69%"></div>
-                          <div class="skill-percent">69%</div>
-                        </div>
-                      </div>
-                      <div class="skill-item padd-15">
-                        <h5>Python</h5>
-                        <div class="progress">
-                          <div class="progress-in" style="width: 67%"></div>
-                          <div class="skill-percent">67%</div>
-                        </div>
-                      </div>
-                      <div class="skill-item padd-15">
-                        <h5>Django</h5>
-                        <div class="progress">
-                          <div class="progress-in" style="width: 70%"></div>
-                          <div class="skill-percent">70%</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div> -->
                 </div>
-                <div class="row">
-                  <div class="education padd-15">
-                    <h3 class="title">Education</h3>
-                    <div class="row">
-                      <div class="timeline-box padd-15">
-                        <div class="timeline shadow-dark">
-                          <!-- timeline item  -->
-                          <div class="timeline-item">
-                            <div class="circle-dot"></div>
-                            <h3 class="timeline-date">
-                              <i class="fa fa-calendar"></i> 2020 - 2021
-                            </h3>
-                            <h4 class="timeline-title">
-                              Web Development Course
-                            </h4>
-                            <p class="timeline-text">
-                              Completed an 115 hours course on Udemy Online
-                              Platform.
-                            </p>
-                          </div>
-                          <div class="timeline-item">
-                            <div class="circle-dot"></div>
-                            <h3 class="timeline-date">
-                              <i class="fa fa-calendar"></i> 2021 - 2022
-                            </h3>
-                            <h4 class="timeline-title">CS50 Harvard Course</h4>
-                            <p class="timeline-text">
-                              Completed the "CS50: Web Developing with Python
-                              and Javascript" Harvard online course.
-                            </p>
-                          </div>
-                          <div class="timeline-item">
-                            <div class="circle-dot"></div>
-                            <h3 class="timeline-date">
-                              <i class="fa fa-calendar"></i> 2023
-                            </h3>
-                            <h4 class="timeline-title">
-                              React.js and Next.js Course
-                            </h4>
-                            <p class="timeline-text">
-                              Completed an Udemy online course with 93hour grade about modern React with Next and Scrapi.
-                            </p>
-                          </div>
-                          <div class="timeline-item">
-                            <div class="circle-dot"></div>
-                            <h3 class="timeline-date">
-                              <i class="fa fa-calendar"></i> 2023 - 2027
-                            </h3>
-                            <h4 class="timeline-title">
-                              Computer Science Majoring
-                            </h4>
-                            <p class="timeline-text">
-                              At the moment, I`m styding Computer Science in the
-                              Federal University of Paraíba. In addition, I`m
-                              styding Computer Science in the Unipe University
-                              too.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="experience padd-15">
-                    <h3 class="title">Experience</h3>
-                    <div class="row">
-                      <div class="timeline-box padd-15">
-                        <div class="timeline shadow-dark">
-                          <!-- timeline item  -->
-                          <div class="timeline-item">
-                            <div class="circle-dot"></div>
-                            <h3 class="timeline-date">
-                              <i class="fa fa-calendar"></i> 2022
-                            </h3>
-                            <h4 class="timeline-title">First Experience</h4>
-                            <p class="timeline-text">
-                              Coded an email template for Metrike Company.
-                            </p>
-                          </div>
-                          <div class="timeline-item">
-                            <div class="circle-dot"></div>
-                            <h3 class="timeline-date">
-                              <i class="fa fa-calendar"></i> 2022
-                            </h3>
-                            <h4 class="timeline-title">Second Experience</h4>
-                            <p class="timeline-text">
-                              Coded an website for Metrike Company using the
-                              Python framework 'Django', JavaScript, Html, CSS
-                              and Bootstrap.
-                            </p>
-                          </div>
-                          <div class="timeline-item">
-                            <div class="circle-dot"></div>
-                            <h3 class="timeline-date">
-                              <i class="fa fa-calendar"></i> 2023
-                            </h3>
-                            <h4 class="timeline-title">First Official Job</h4>
-                            <p class="timeline-text">
-                              In february, started working at Metrike Company as
-                              an Web Developer and UX Supervisor trainee.
-                            </p>
-                          </div>
-                          <div class="timeline-item">
-                            <div class="circle-dot"></div>
-                            <h3 class="timeline-date">
-                              <i class="fa fa-calendar"></i> 2023.2
-                            </h3>
-                            <h4 class="timeline-title">Promotion at Metrike</h4>
-                            <p class="timeline-text">
-                              In may, got promoted to a fullstack developer using Python, Django, Javascript and React
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- about section end -->
-        <!-- Services section start -->
-        <section id="service" class="service section">
-          <div class="container">
-            <div class="row">
-              <div class="section-title padd-15">
-                <h2>Services</h2>
-              </div>
-            </div>
-            <div class="row">
-              <!-- service item start  -->
-              <!-- <div class="service-item padd-15">
-                            <div class="service-item-inner">
-                                <div class="icon">
-                                    <i class="fa fa-mobile-alt"></i>
-                                </div>
-                                <h4>Web Developer</h4>
-                                <p>Lorem, ipsum dolor sit amet imen ufog ilip ugof asden</p>
-                            </div>
-                        </div> -->
-              <!-- service item end  -->
-              <!-- service item start  -->
-              <div class="service-item padd-15">
-                <div class="service-item-inner">
-                  <div class="icon">
-                    <i class="fa fa-laptop-code"></i>
-                  </div>
-                  <h4>Front-End Developer</h4>
-                  <p>Html, CSS, Bootstrap, Javascript.</p>
-                </div>
-              </div>
-              <!-- service item end  -->
-              <!-- service item start  -->
-              <div class="service-item padd-15">
-                <div class="service-item-inner">
-                  <div class="icon">
-                    <i class="fa fa-code"></i>
-                  </div>
-                  <h4>Back Developer</h4>
-                  <p>Python and Django.</p>
-                </div>
-              </div>
-              <!-- service item end  -->
-              <!-- service item start  -->
-              <!-- <div class="service-item padd-15">
-                <div class="service-item-inner">
-                  <div class="icon">
-                    <i class="fa fas fa-bars-progress"></i>
-                  </div>
-                  <h4>Ux designer</h4>
-                  <p>Layout bugs repairment.</p>
-                </div>
-              </div>
-              <div class="service-item padd-15">
-                <div class="service-item-inner">
-                  <div class="icon">
-                    <i class="fa fa-search"></i>
-                  </div>
-                  <h4>Curious Professional</h4>
-                  <p>Always willing to learn and grow.</p>
-                </div>
-              </div> -->
-              <!-- service item end  -->
-              <!-- service item start  -->
-
-              <!-- service item end  -->
-            </div>
-          </div>
-        </section>
-        <!-- Services section end -->
-        <!-- portfolio section start -->
-        <section id="portfolio" class="portfolio section">
-          <div class="container">
-            <div class="row">
-              <div class="section-title padd-15">
-                <h2>Portfolio</h2>
-              </div>
-            </div>
-            <div class="row">
-              <div class="potfolio-heading padd-15">
-                <h2>My last projects :</h2>
-                <small style="color:white; text-decoration:underline;">Soon it will be available in the web...</small>
-              </div>
-              <div class="row">
-                <!-- portfolio item start -->
-                <div class="portfolio-item shadow-dark">
-                  <div class="portfolio-item-inner shadow-dark">
-                    <div class="porfolio-img" style="height: 200px">
-                      <img src="1.png" alt="" />
-                    </div>
-                  </div>
-                </div>
-                <!-- portfolio item end -->
-                <!-- portfolio item start -->
-                <div class="portfolio-item shadow-dark">
-                  <div class="portfolio-item-inner shadow-dark">
-                    <div class="porfolio-img" style="height: 200px">
-                      <img src="2.png" alt="" />
-                    </div>
-                  </div>
-                </div>
-                <!-- portfolio item end -->
-                <!-- portfolio item start -->
-                <div class="portfolio-item shadow-dark">
-                  <div class="portfolio-item-inner shadow-dark">
-                    <div class="porfolio-img" style="height: 200px">
-                      <img src="3.png" alt="" />
-                    </div>
-                  </div>
-                </div>
-                <!-- portfolio item end -->
-                <div class="portfolio-item shadow-dark">
-                  <div class="portfolio-item-inner shadow-dark">
-                    <div class="porfolio-img" style="height: 200px">
-                      <img src="4.png" alt="" />
-                    </div>
-                  </div>
-                </div>
-                <div class="portfolio-item shadow-dark">
-                  <div class="portfolio-item-inner shadow-dark">
-                    <div class="porfolio-img" style="height: 200px">
-                      <img src="11.png" alt="" />
-                    </div>
-                  </div>
-                </div>
-                <div class="portfolio-item shadow-dark">
-                  <div class="portfolio-item-inner shadow-dark">
-                    <div class="porfolio-img" style="height: 200px">
-                      <img src="6.png" alt="" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- portfolio section end -->
-        <!-- <section id="budget" class="budget section">
-          <div class="section-title" style="margin-bottom: 50px">
-            <h2>Make a budget</h2>
-          </div>
-
-          <div
-            class="orcamento-wrapper sessao-orcamento"
-            style="margin: 0 auto"
-          >
-            <h1>Make a Budget</h1>
-            <div class="budget-nav">
-              <button class="budget-nav-btn active" id="landing-pg">
-                Landing Page
-              </button>
-              <button class="budget-nav-btn" id="web-application">
-                Web Application
-              </button>
-            </div>
-            <form id="landing-page">
-              <div class="form-grp">
-                <label for="qtde">How many pages?</label>
-                <input
-                  type="number"
-                  min="1"
-                  name="qtde"
-                  id="qtde"
-                  value="1"
-                  disabled
-                />
-              </div>
-              <div class="form-grp layout">
-                <label>Design</label>
-                <div class="group-layout">
-                  <div>
-                    <input type="radio" name="layout" id="layout-sim" />
-                    <label class="for" for="layout-sim">I need a Design</label>
-                  </div>
-                  <div>
-                    <input
-                      type="radio"
-                      name="layout"
-                      id="layout-nao"
-                      checked="checked"
-                    />
-                    <label class="for" for="layout-nao">I have a Design</label>
-                  </div>
-                </div>
-              </div>
-              <div class="form-grp layout">
-                <label>More info</label>
-                <div class="group-layout">
-                  <input
-                    id="static-page"
-                    name="info"
-                    type="radio"
-                    checked="checked"
-                  />
-                  <label class="for" for="static-page">Static Page</label><br />
-                  <input id="other-functionalitys" name="info" type="radio" />
-                  <label class="for" for="emailSending"
-                    >Other Functionalities</label
-                  >
-                </div>
-              </div>
-              <div class="form-grp">
-                <label for="prazo">Deadline of 3 weeks</label>
-                <input
-                  type="range"
-                  min="1"
-                  max="6"
-                  value="4"
-                  name="prazo"
-                  id="prazo"
-                />
-              </div>
-              <label id="preco">R$ 0,00 | $0</label>
-              <button
-                class="btnn btn-orcamento"
-                type="submit"
-                id="calcularOrcamento"
-              >
-                Preview
-              </button>
-            </form>
-            <form style="display: none" id="web-app">
-              <div class="form-grp">
-                <label for="qtde-pag">How many pages?</label>
-                <input id="qtde-pag" type="number" min="1" />
-              </div>
-              <label>Specifications</label>
-
-              <div class="grp">
-                <div>
-                  <input id="auth" type="checkbox" />
-                  <label for="auth">Auth</label>
-                </div>
-
-                <div>
-                  <input id="bd" type="checkbox" />
-                  <label for="bd">Database</label>
-                </div>
-                <div>
-                  <input id="dynamic-updates" type="checkbox" />
-                  <label for="dynamic-updates">Dynamic updates</label>
-                </div>
-                <div>
-                  <input id="search-system" type="checkbox" />
-                  <label for="search-system">Search System</label>
-                </div>
-                <div>
-                  <input type="checkbox" id="design" />
-                  <label for="design">I need a design</label>
-                </div>
-              </div>
-              <div class="form-grp">
-                <label for="deadline">Deadline of 7 weeks</label>
-                <input
-                  type="range"
-                  min="3"
-                  max="11"
-                  value="7"
-                  name="prazo"
-                  id="deadline"
-                />
-              </div>
-              <label id="prize">R$ 0,00 | $0</label>
-              <button
-                style="text-transform: capitalize;"
-                class="btnn btn-orcamento"
-                type="submit"
-                id="calcularOrcamento2"
-              >
-                Preview
-              </button>
-            </form>
-          </div>
-        </section> --> 
-        <!-- contact section start -->
-        <section id="contact" class="contact section">
-          <div class="container">
-            <div class="row">
-              <div class="section-title padd-15">
-                <h2>Contact Me</h2>
-              </div>
-            </div>
-            <h3 class="contact-title">Have you any questions ?</h3>
-            <h4 class="contact-sub-title">I'M AT YOUR SERVICES</h4>
-            <div class="row">
-              <!-- contact info item start -->
-              <div class="contact-info-item padd-15">
-                <div class="icon"><i class="fa fa-phone"></i></div>
-                <h4>Call Us On</h4>
-                <p>+55 83 98614-6231</p>
-              </div>
-              <!-- contact info item end -->
-              <!-- contact info item start -->
-              <div class="contact-info-item padd-15">
-                <div class="icon"><i class="fa fa-envelope"></i></div>
-                <h4>Email</h4>
-                <a
-                  href="mailto:micaelgomestargino@gmail.com?subject=Quero Te Contratar"
-                  >micaelgomestargino@gmail.com</a
-                >
-              </div>
-              <!-- contact info item end -->
-              <div class="contact-info-item padd-15">
-                <div class="icon"><i class="fa-brands fa fa-linkedin"></i></div>
-                <h4>Linkedin</h4>
-                <a href="https://www.linkedin.com/in/micael-targino-525a07260"
-                  >Micael Targino</a
-                >
-                <!-- <p>linkedin.com/in/micael-targino-525a07260</p> -->
-              </div>
-              <!-- contact info item end -->
-            </div>
-          </div>
-           <!-- <h3 class="contact-title">SEND ME AN EMAIL</h3>
-          <h4 class="contact-sub-title">I'M VERY RESPONSIVE TO MESSAGES</h4> -->
-          <!-- contact form -->
-
-          <!-- <div class="row">
-            <form
-              class="contact-form padd-15"
-              action="https://formsubmit.co/micaelgomestargino@gmail.com"
-              method="POST"
-            >
-              <input
-                type="hidden"
-                name="_next"
-                value="https://tranquil-caverns-01400.herokuapp.com/sent"
-              />
-             <div class="row">
-                <div class="form-item col-6 padd-15">
-                  <div class="form-group">
-                    <input
-                      type="text"
-                      name="name"
-                      class="form-control"
-                      placeholder="name"
-                      required
-                    />
-                  </div>
-                </div>
-                <div class="form-item col-6 padd-15">
-                  <div class="form-group">
-                    <input
-                      type="email"
-                      name="email"
-                      class="form-control"
-                      placeholder="email"
-                      required
-                    />
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="form-item col-12 padd-15">
-                  <div class="form-group">
-                    <input
-                      type="text"
-                      class="form-control"
-                      name="subject"
-                      placeholder="Subject"
-                      required
-                    />
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="form-item col-12 padd-15">
-                  <div class="form-group">
-                    <textarea
-                      name="message"
-                      class="form-control"
-                      id=""
-                      placeholder="Message"
-                      required
-                    ></textarea>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="form-item col-12 padd-15">
-                  <div class="form-group" style="display: flex">
-                    <button type="submit" class="btnn" style="margin: 0 auto">
-                      Send Message
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </form>
-          </div> -->
-        </section>
-        <!-- contact section end -->
-      </div>
-      <!-- main content end -->
+        
+        </div>
+        <!-- main content end -->
     </div>
     <!-- main container end -->
-
-    <!-- style switcher start -->
     <div class="style-switcher">
-      <div class="style-switcher-toggler s-icon">
-        <i class="fas fa-cog fa-spin"></i>
-      </div>
-      <div class="day-night s-icon">
-        <i class="fas"></i>
-      </div>
-      <h4>Theme Colors</h4>
-      <div class="colors">
-        <span class="color-1" onclick="setActiveStyle('color-1')"></span>
-        <span class="color-2" onclick="setActiveStyle('color-2')"></span>
-        <span class="color-3" onclick="setActiveStyle('color-3')"></span>
-        <span class="color-4" onclick="setActiveStyle('color-4')"></span>
-        <span class="color-5" onclick="setActiveStyle('color-5')"></span>
-      </div>
+
+        <div class="style-switcher-toggler s-icon">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <div class="day-night s-icon">
+            <i class="fas"></i>
+        </div>
+        <h4>Theme Colors</h4>
+        <style>
+            .style-switcher .color-1 {
+                background: #ec1839;
+            } 
+            .style-switcher .color-2 {
+                background:  #fa5b0f;
+            } 
+            .style-switcher .color-3 {
+                background: #37b182;
+            } 
+            .style-switcher .color-4 {
+                background: #1854b4;
+            } 
+            .style-switcher .color-5 {
+                background:   #f021b2;
+            } 
+        </style>
+        <div class="colors">
+            <span class="color-3" onclick="setActiveStyle('#37b182')"></span>
+            <span class="color-1" onclick="setActiveStyle('#ec1839')"></span>
+            <span class="color-2" onclick="setActiveStyle('#fa5b0f')"></span>
+            <span class="color-4" onclick="setActiveStyle('#1854b4')"></span>
+            <span class="color-5" onclick="setActiveStyle('#f021b2')"></span>
+        </div>
     </div>
     <a href="#home" id="link-topo">
-      <i class="fas fa-arrow-up"></i>
+        <i class="fas fa-arrow-up"></i>
     </a>
+    
     <div class="gtranslate_wrapper"></div>
     <script>
       window.gtranslateSettings = {
@@ -766,6 +375,32 @@
         dropdown_background_color: "#474747",
       };
     </script>
+    <script>
+      const svgTemplate = `
+      <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M7 8L3 12L7 16" stroke="{color}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M17 8L21 12L17 16" stroke="{color}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M14 4L9.8589 19.4548" stroke="{color}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>`;
+
+      function setFavicon() {
+          const skinColor = getComputedStyle(document.documentElement).getPropertyValue('--skin-color').trim();
+          const svgContent = svgTemplate.replace(/{color}/g, skinColor);
+          const blob = new Blob([svgContent], { type: 'image/svg+xml' });
+          const url = URL.createObjectURL(blob);
+          const link = document.createElement('link');
+          link.rel = 'icon';
+          link.href = url;
+          link.type = 'image/svg+xml';
+
+          const existingIcons = document.querySelectorAll('link[rel="icon"]');
+          existingIcons.forEach(icon => icon.parentNode.removeChild(icon));
+
+          document.head.appendChild(link);
+      }
+
+      setFavicon();
+  </script>
     <script
       src="https://cdn.gtranslate.net/widgets/latest/dwf.js"
       defer
@@ -776,7 +411,18 @@
       src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
       referrerpolicy="no-referrer"
     ></script>
-    <script src="style-switcher.js"></script>
-    <script src="script.js"></script>
-  </body>
+    <script src="./style-switcher.js"></script>
+    <script src="./script.js"></script>
+    <script>
+      // typing animation
+      var labels = ['Software Engineer', 'Data Engineer', 'Fullstack Developer'];
+      var typed = new Typed('.typing', {
+        strings: labels,
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+      });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
+</body>
 </html>
